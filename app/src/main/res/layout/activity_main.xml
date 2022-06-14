@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:text="Calculatrice"
             android:gravity="center"
-            android:textSize="18dp"/>
+            android:textSize="36dp"/>
 
         <EditText
             android:id="@+id/editText"
@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:hint="premier nombre"
             android:inputType="textPersonName"
            />
         <EditText
@@ -44,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:hint="deuxième nombre"
             android:inputType="textPersonName"
              />
         <TextView
@@ -72,6 +74,7 @@
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
             android:textAllCaps="false"
+            android:backgroundTint="#FF5722"
             android:onClick="calculatrice"/>/>
         <Button
             android:id="@+id/button2"
@@ -82,6 +85,7 @@
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
             android:textAllCaps="false"
+            android:backgroundTint="#8BC34A"
             android:onClick="calculatrice"/>
         <Button
             android:id="@+id/button3"
@@ -92,6 +96,7 @@
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
             android:textAllCaps="false"
+            android:backgroundTint="#FF9800"
             android:onClick="calculatrice"/>
         <Button
             android:id="@+id/button4"
@@ -99,6 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text=" X "
+            android:backgroundTint="#00A59E"
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
             android:textAllCaps="false"
